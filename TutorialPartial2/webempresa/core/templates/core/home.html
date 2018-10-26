@@ -1,0 +1,40 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Inicio{% endblock %}
+{% block content %}
+
+<section class="page-section clearfix">
+  <div class="container">
+    <div class="intro">
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'core/img/intro.jpg' %}" alt="">
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+        <h2 class="section-heading mb-4">
+          <span class="section-heading-upper">Elotes magistrales</span>
+          <span class="section-heading-lower">Los mejores en su tipo</span>
+        </h2>
+        <p class="mb-3">El elote que siempre has deseado está aquí para quedarse
+        </p>
+        <div class="intro-button mx-auto">
+          <a class="btn btn-primary btn-xl" href="store.html">Visítanos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Compromiso total</span>
+            <span class="section-heading-lower">Elotes Premium</span>
+          </h2>
+          <p class="mb-0">Ven por tu elote y recibe una promoción sólo para ti</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
